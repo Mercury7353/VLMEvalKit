@@ -133,12 +133,14 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
             self.model = MODEL_CLS.from_pretrained(
                 model_path, torch_dtype='auto', device_map='auto', attn_implementation='flash_attention_2'
             )
+        
         else:
             self.model = MODEL_CLS.from_pretrained(
                 model_path, torch_dtype='auto', device_map='cuda', attn_implementation='flash_attention_2',
             )
             self.model.eval()
-
+        if "omni" in self.model_path.lower():
+            self.model.disable_talker()
         torch.cuda.empty_cache()
 
     def _prepare_content(self, inputs: list[dict[str, str]], dataset: str | None = None) -> list[dict[str, str]]:
@@ -171,13 +173,17 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
                     if frame_count < self.nframe:
                         new_frame_count = frame_count // self.FRAME_FACTOR * self.FRAME_FACTOR
                         print(f"use {new_frame_count} for {s['value']}")
-                        item['nframes'] = new_frame_count
+                        print("Edit..注释了nframes.")
+                        #item['nframes'] = new_frame_count
                     else:
-                        item['nframes'] = self.nframe
+                        print("Edit..注释了nframes.",self.nframe)
+                        #item['nframes'] = self.nframe
+                print("Check prepare content items:,",item)
             elif s['type'] == 'text':
                 item = {'type': 'text', 'text': s['value']}
             else:
-                raise ValueError(f"Invalid message type: {s['type']}, {s}")
+                print(f"Invalid message type: {s['type']}, {s}")
+                #raise ValueError(f"Invalid message type: {s['type']}, {s}")
             content.append(item)
         return content
 
@@ -204,14 +210,19 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
 
         text = self.processor.apply_chat_template([messages], tokenize=False, add_generation_prompt=True)
         if listinstr(['omni'], self.model_path.lower()):
-            _, images, videos = process_mm_info([messages], use_audio_in_video=False)
+            audios, images, videos = process_mm_info([messages], use_audio_in_video=True)
         else:
             images, videos = process_vision_info([messages])
-        inputs = self.processor(text=text, images=images, videos=videos, padding=True, return_tensors='pt')
-        inputs = inputs.to('cuda')
+        if listinstr(['omni'], self.model_path.lower()):
+            inputs = self.processor(text=text, images=images, videos=videos,audio=audios, padding=True, return_tensors='pt',use_audio_in_video=True)
+            inputs = inputs.to('cuda')
+        else:
+            inputs = self.processor(text=text, images=images, videos=videos, padding=True, return_tensors='pt')
+            inputs = inputs.to('cuda')
+
 
         if listinstr(['omni'], self.model_path.lower()):
-            self.generate_kwargs['use_audio_in_video'] = False
+            self.generate_kwargs['use_audio_in_video'] = True
             self.generate_kwargs['return_audio'] = False
         generated_ids = self.model.generate(
             **inputs,

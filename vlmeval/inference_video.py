@@ -146,7 +146,7 @@ def infer_data_job_video(
     if osp.exists(result_file):
         return model
 
-    tmpl = osp.join(work_dir, '{}' + f'{world_size}_{osp.splitext(result_file_name)[0]}.pkl')
+    tmpl = osp.join(work_dir, '{}' + f'{world_size}_{osp.splitext(result_file_name)[0]}.pkl')# 每个rank分别的推理
     out_file = tmpl.format(rank)
 
     model = infer_data(

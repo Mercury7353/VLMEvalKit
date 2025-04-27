@@ -140,6 +140,7 @@ api_models = {
         img_detail="low",
         retry=10,
         verbose=False,
+        use_azure=True
     ),
     "GPT4o_HIGH": partial(
         GPT4V,
@@ -1020,7 +1021,7 @@ qwen2vl_series = {
     ),
     "Qwen2.5-Omni-7B": partial(
         Qwen2VLChat,
-        model_path="Qwen/Qwen2.5-Omni-7B",
+        model_path="/mnt/afs/zhangyaolun/safe_model/models/Qwen2.5-Omni-7B",
         min_pixels=1280 * 28 * 28,
         max_pixels=16384 * 28 * 28,
         use_custom_prompt=False,

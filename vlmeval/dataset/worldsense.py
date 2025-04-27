@@ -223,8 +223,10 @@ Respond with only the letter (A, B, C, or D) of the correct option.
         if isinstance(line, int):
             assert line < len(self)
             line = self.data.iloc[line]
-
-        frames, indices, video_info = self.save_video_frames(line['video'], video_llm)
+        
+        if self.use_subtitle or not video_llm:
+            print("Use save video frames...")
+            frames, indices, video_info = self.save_video_frames(line['video'], video_llm)
 
         if self.use_subtitle and os.path.exists(osp.join(self.data_root, line['subtitle_path'])):
             import pysubs2
@@ -251,7 +253,11 @@ Respond with only the letter (A, B, C, or D) of the correct option.
         if video_llm:
             message.append(dict(type='video', value=osp.join(self.data_root, 'videos', line['video'] + '.mp4')))
             if self.use_audio:
-                message.append(dict(type='audio', value=osp.join(self.data_root, 'audios', line['video'] + '.wav')))
+                try:
+                    assert os.path.exists(osp.join(self.data_root, 'audios', line['video'] + '.wav'))
+                    message.append(dict(type='audio', value=osp.join(self.data_root, 'audios', line['video'] + '.wav')))
+                except:
+                    print("--- No audio find...",osp.join(self.data_root, 'audios', line['video'] + '.wav'))
         else:
             for im in frames:
                 message.append(dict(type='image', value=im))
@@ -268,6 +274,8 @@ Respond with only the letter (A, B, C, or D) of the correct option.
         question_str = line['question'] + '\n' + '\n'.join(eval(line['candidates']))
         prompt = 'Question: {}\nAnswer: '.format(question_str)
         message.append(dict(type='text', value=prompt))
+        print("Check Messages",message)
+        print("Check video llm", video_llm)
         return message
 
     # It returns a dictionary
