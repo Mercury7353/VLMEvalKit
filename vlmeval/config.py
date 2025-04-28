@@ -1025,6 +1025,8 @@ qwen2vl_series = {
         min_pixels=1280 * 28 * 28,
         max_pixels=16384 * 28 * 28,
         use_custom_prompt=False,
+        use_audio_in_video=True, # set use audio in video
+        nframe=None, #disable nframe
     ),
 
 }

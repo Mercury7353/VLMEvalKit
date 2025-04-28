@@ -78,6 +78,8 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
         system_prompt: str | None = None,
         post_process: bool = False,  # if True, will try to only extract stuff in the last \boxed{}.
         verbose: bool = False,
+        use_audio_in_video: bool = False,
+        nframe: int | None = None
     ):
         super().__init__(use_custom_prompt=use_custom_prompt)
         self.min_pixels = min_pixels
@@ -93,11 +95,12 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
         self.verbose = verbose
         self.post_process = post_process
         self.fps = 2.0
-        self.nframe = 64
+        self.nframe = nframe
         self.FRAME_FACTOR = 2
         rank, world_size = get_rank_and_world_size()
         assert model_path is not None
         self.model_path = model_path
+        self.use_audio_in_video = use_audio_in_video
         MODEL_CLS = None
 
         if listinstr(['omni'], model_path.lower()):
@@ -173,17 +176,19 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
                     if frame_count < self.nframe:
                         new_frame_count = frame_count // self.FRAME_FACTOR * self.FRAME_FACTOR
                         print(f"use {new_frame_count} for {s['value']}")
-                        print("Edit..注释了nframes.")
-                        #item['nframes'] = new_frame_count
+                        #print("Edit..注释了nframes.")
+                        item['nframes'] = new_frame_count
                     else:
-                        print("Edit..注释了nframes.",self.nframe)
-                        #item['nframes'] = self.nframe
-                print("Check prepare content items:,",item)
+                        #print("Edit..注释了nframes.",self.nframe)
+                        item['nframes'] = self.nframe
+                #print("Check prepare content items:,",item)
             elif s['type'] == 'text':
                 item = {'type': 'text', 'text': s['value']}
+            elif s['type'] == 'audio':
+                item = {'type':'audio','audio':s['value']}
             else:
                 print(f"Invalid message type: {s['type']}, {s}")
-                #raise ValueError(f"Invalid message type: {s['type']}, {s}")
+                raise ValueError(f"Invalid message type: {s['type']}, {s}")
             content.append(item)
         return content
 
@@ -210,11 +215,11 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
 
         text = self.processor.apply_chat_template([messages], tokenize=False, add_generation_prompt=True)
         if listinstr(['omni'], self.model_path.lower()):
-            audios, images, videos = process_mm_info([messages], use_audio_in_video=True)
+            audios, images, videos = process_mm_info([messages], use_audio_in_video=self.use_audio_in_video)
         else:
             images, videos = process_vision_info([messages])
         if listinstr(['omni'], self.model_path.lower()):
-            inputs = self.processor(text=text, images=images, videos=videos,audio=audios, padding=True, return_tensors='pt',use_audio_in_video=True)
+            inputs = self.processor(text=text, images=images, videos=videos,audio=audios, padding=True, return_tensors='pt',use_audio_in_video=self.use_audio_in_video)
             inputs = inputs.to('cuda')
         else:
             inputs = self.processor(text=text, images=images, videos=videos, padding=True, return_tensors='pt')
@@ -222,7 +227,7 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
 
 
         if listinstr(['omni'], self.model_path.lower()):
-            self.generate_kwargs['use_audio_in_video'] = True
+            self.generate_kwargs['use_audio_in_video'] = self.use_audio_in_video
             self.generate_kwargs['return_audio'] = False
         generated_ids = self.model.generate(
             **inputs,

@@ -274,8 +274,6 @@ Respond with only the letter (A, B, C, or D) of the correct option.
         question_str = line['question'] + '\n' + '\n'.join(eval(line['candidates']))
         prompt = 'Question: {}\nAnswer: '.format(question_str)
         message.append(dict(type='text', value=prompt))
-        print("Check Messages",message)
-        print("Check video llm", video_llm)
         return message
 
     # It returns a dictionary
