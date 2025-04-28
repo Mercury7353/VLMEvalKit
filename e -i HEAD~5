@@ -1,0 +1,1262 @@
+[33m7b3bd30[m[33m ([m[1;36mHEAD -> [m[1;32mqwen2.5_omni[m[33m)[m removesecrets
+[33m90c9c13[m fixomnibugs
+[33m738a2a1[m fixqwenomni
+[33mcb02eb2[m[33m ([m[1;31morigin/qwen2.5_omni[m[33m)[m Delete files
+[33m3a0db23[m Delete VIDEO_DLC_scripts/video_lb_update_qwen2_5_vl_7b.sh
+[33ma9ef765[m Delete VIDEO_DLC_scripts/video_lb_update_cu118_smol.sh
+[33m0e18f8f[m Delete VIDEO_DLC_scripts/MMSci_internvl2_8b.sh
+[33mee08b63[m update model cls for qwen2_5omni
+[33m4678b6a[m add support for qwen2.5_omni (only single process)
+[33m084305b[m Merge branch 'main' into qwen2.5_omni
+[33mc47c38e[m [Benchmark] Add MEGA-Bench (#724)
+[33m8568c59[m add support for qwen2.5_omni
+[33m97ce037[m [VLM] Support GPT-4.5 (#873)
+[33madd0775[m [Model] add taichu-vlr-7b api (#871)
+[33m953ea98[m [Improvement] Support Best-of-N evaluation for InternVL2.5 (#854)
+[33m5cf76ba[m [Fix] fix some evaluation errors in some video datasets, add vita creation prompt and minicpm_o video dataset prompt
+[33me4e0263[m[33m ([m[1;33mtag: v0.2[m[33m)[m [VLM] Support o1
+[33mf22451a[m [Fix] Fix DynaMath Eval
+[33m1791359[m [API] Support taichu-vlr (#864)
+[33m91e1b80[m [benchmark][MOAT] Shuffle choices for MOAT (#852)
+[33m6c85ef7[m [Model] Add AKI model (#853)
+[33m4350db5[m [Benchmark] Add Creation-MMBench (#858)
+[33m971c8c6[m [Minor] Fix Gemma3 Inference Bug
+[33mc59d4d8[m [VLM] Support Gemma3 (#850)
+[33m388275e[m [Benchmark] Add MovieChat1k and VDC (#719)
+[33m0046b1e[m [Benchmark] Support the inference part of MME-CoT  (#832)
+[33m138d3f7[m [Benchmark] Add MOAT (#849)
+[33m54807b4[m [Benchmark] add Q-Bench-Video (#847)
+[33maffd52c[m [Fix] Update .tsv file for image cases and md5 (#843)
+[33m8d415e9[m [Benchmark] Support EMMA (#844)
+[33m85ee5e9[m [Benchmark] Support VMCBench
+[33m78abba4[m Merge branch 'main' into main
+[33m7682f53[m Merge pull request #819 from RainJamesY/main
+[33md3cb17d[m Merge pull request #841 from kkscilife/test/workflow
+[33mab099c9[m Merge pull request #831 from mary-0830/vlm-r1
+[33mc76ffd0[m Merge branch 'main' into vlm-r1
+[33mdf851c0[m Update config.py
+[33m000fed1[m Merge pull request #821 from bobo0810/main
+[33mc008600[m Merge branch 'main' into main
+[33m1bf2464[m Merge pull request #826 from mfarre/f-smolvlm2
+[33mfd7e833[m add pr test
+[33mf501c22[m Merge branch 'main' into f-smolvlm2
+[33m7faa5b4[m [API] Add shopee mug-u api (#804)
+[33ma4f5d9a[m modify qwen25vl (#838)
+[33ma4685d1[m [Model] Add Support for VLM-R1 Model
+[33m0de60d7[m clean anno
+[33me24af0e[m clean code
+[33m392c8e7[m Add VMCBench
+[33m0a11917[m fix
+[33m2d7808e[m smolvlm2
+[33mf47b6ec[m [Model] Add new model: Phi-4-multimodal-instruct
+[33m9e86c82[m integrate VLM2Bench, all image cases
+[33meda4a62[m [Fix] fix import in omnidocbench
+[33mc350e6e[m [Improvement] Refine Long-Vita Import
+[33md8fb7a5[m [Improvement] Refine OmniDocBench Import
+[33m978ea84[m [Minor] Update Grok and Kimi Model Names
+[33m2fa0929[m [API] Add grok and kimi model api support. (#812)
+[33mccd7d51[m [Benchmark] Add Omnidocbench (#780)
+[33m5c05a13[m [Model] Add new model: Long-VITA (#788)
+[33m1f6f1b7[m [Minor] Fix comma
+[33me84de2c[m [CI] Add Mini sets for Test
+[33m8480c18[m [Minor] More Efficient Inference for MMBench_V10
+[33mb645670[m [Minor] Update Tools
+[33mc77a13e[m [Update] Support Claude 3.7
+[33meb58e9e[m [Benchmark] add MVTamperBench (#739)
+[33me90a2c1[m [Improvemnet] Remove Unnecessary vlmeval/vlm/internvl_chat.py  (#792)
+[33m88bfb0c[m [Improvement] Refine Prompts for ShortQA Evaluation (#808)
+[33m4b94a54[m Mmalignbench (#805)
+[33m2d8e44e[m New document (#796)
+[33m1a0335b[m Update README and QUICKSTART (#795)
+[33m43af13e[m [Improvement] Support ImageSimpleQA data class and CreationBench data class (#790)
+[33ma2a82bd[m [Fix] qwen2.5vl evaluation do not use custom prompt (#786)
+[33mbf73bae[m update worlsense (#775)
+[33mfa26094[m [Minor] Fix bug in extracting dataset_name from eval file name (#778)
+[33m889822d[m Update SEEDBench2_Plus MD5
+[33mc577277[m Merge pull request #782 from runninglsy/main
+[33m5d5693c[m remove redundant parentheses
+[33m7f97843[m add Ovis2
+[33m30589e3[m [Fix] Move barrier to the starting point of the for-loop (#772)
+[33maaa1420[m Add Dynamath_noprompt (#776)
+[33m6b81b5e[m [Fix] Fix build dataset from config for image dataset
+[33mb1d59b7[m Claude Timeout (#771)
+[33m90a80d2[m [Improvement] Better Implementation for CircularEval (#770)
+[33m6e94c1e[m [Minor] Adopt CircularEval for all datasets with 'circular' in names
+[33m9a4136b[m [Minor] Fix SiliconFlowAPI
+[33m61ef196[m [Minor] Update SiliconFlowAPI
+[33mfa829b9[m [Model] Add Ola Model (#752)
+[33m87f2dbe[m [Benchmark] Support MMMU Pro (#768)
+[33m701f9c0[m [Minor] Support cmd `vlmutil scan`
+[33m2f1f6c8[m Updated the generate in LLaVA-OneVision-HF (#761)
+[33m8b823bd[m add mathverse_visiononly_cot (#765)
+[33m02ff9db[m [Fix] Fix minor issues for llava 1.5
+[33ma810188[m [Improvement] Refine reuse strategy & implement sympy timeout (#764)
+[33m282a0af[m add Step1o
+[33m2d98019[m [Model] Support Qwen-2.5-VL and Janus-Pro-7B (#762)
+[33m31efb98[m Claude refine .jpg (#760)
+[33mfbf0418[m Claude (#759)
+[33m707a4e6[m fix claude_wrapper with encode_image&official backend (#758)
+[33m79d54e2[m [Fix] Fixed the cache_path in pixtral.py (#756)
+[33m37b475e[m [Fix] fix on private data_path import
+[33m115ab0d[m fix wemathv2 evaluate, move ursa import to init (#757)
+[33m3f0b1ec[m change WeMath file & build_prompt (#755)
+[33mc19a7f4[m [Model] Add URSA-8B (#737)
+[33mf446782[m [Model] Add SmolVLM-256M and SmolVLM-500M and fix prompts for benchmarks (#751)
+[33mf67440d[m [Fix] Fix Emu3 Inference
+[33mc8bb6d1[m [Model] Doubao VL (#747)
+[33m0bdeaa4[m [Minor] Fix GLM-V Import
+[33m9eadfac[m Update run.py
+[33m149128b[m [Minor] Change Arg Name: "--api_nproc" -> "--api-nproc" (#750)
+[33m89e68e8[m [Model] Update glmvision (#748)
+[33m4f2d6ad[m Refine Lmdeploy with InternVL2.5-78B-MPO & QVQ-72B-preview (#749)
+[33m61f6b3d[m [Improvement] Moondream2 new release update (#742)
+[33mb12f17e[m [Minor] "Emu3" -> "emu3"
+[33ma897a2c[m [Minor] Add judge args option (#736)
+[33m982c34b[m [Model] Add emu3-chat and emu3-gen (#738)
+[33mddd3252[m [Minor] Change Arg Name: "--api_nproc" -> "--api-nproc" (#746)
+[33m060e8fd[m [Fix] Fix num_beams for MiniCPM-o-2_6 (#745)
+[33mf8279c8[m [Model] Add BailingMM-Pro-0120 (#740)
+[33m621188c[m Add MMVet_Hard (#733)
+[33m9568fe9[m Add 3DSRBench (#708)
+[33m031bc6d[m Logicvista (#734)
+[33m1e4c15f[m [Model] Add MiniCPM-o-2_6 (#728)
+[33mc91aa28[m Wemath4 (#732)
+[33m41eb9a8[m wemath3 (#731)
+[33mfbe604f[m Wemath2 (#730)
+[33m21453dc[m Wemath (#729)
+[33m924514e[m [Model] Support Ross (#718)
+[33m3c9a8ae[m [Fix] Fix ccocr import problem and args nproc conflict with --nproc-per-node (#717)
+[33m5025784[m [Doc] Update Development.md
+[33m77b7d08[m [Model] Support HunYuan-Standard-Vision model (#721)
+[33m27dd622[m Add CGBench dataset support (#699)
+[33m4c71160[m [Fix] video_llava nframe bug
+[33m37de306[m [Fix] video_llava HF nframes
+[33mf58ac1b[m [Fix] Video LLaVA HF nframes (#713)
+[33m63bc8ed[m [Improvement] More Robust Auto Eval Service for MMBench
+[33m0835f17[m [Fix] Fix LLaVA-OneVision-HF
+[33m276d90a[m [Benchmark] Add VL-RewardBench (#703)
+[33mae10ca4[m [Fix] Fix Lint
+[33m6e1a59a[m Update llama_vision.py (#705)
+[33mea28715[m [Fix] Fix confusing image width&height (#704)
+[33me42058a[m update MMMU_DEV_VAL tsv
+[33m79913ae[m [Fix] Fix RealWorldQA md5
+[33m9c85881[m [Fix] Refine Qwen-VL2 device assignment
+[33mc08ab64[m [Model] Update Molmo Eval to Match Official Implementation (#648)
+[33mcb80ee0[m [Model] Support QVQ
+[33m9bc5008[m [Minor] Improve CC-OCR Import
+[33mb13a37d[m [Improvement] Better `AUTO_SPLIT` and model split for InternVL2
+[33m14385c5[m [Benchmark] The CC-OCR benchmark applies to merge into the official VLMEvalKit (#698)
+[33m4bea02b[m modify valley import (#700)
+[33mbe12656[m fix gqa tsv and deepspeed alert
+[33md53abdc[m fix dependency problem in valley
+[33m4701db6[m [Model] Add VITA Series Model (#686)
+[33m0eef2a6[m [Fix] Fix DIST_TIMEOUT
+[33m6b39c19[m [Fix] Remove get_token_len for GPT API
+[33mcf4d61b[m [Model] Add DeepSeek-VL2 (#697)
+[33mf055c2e[m Fix Lint
+[33m00e0cf8[m [VLM]update InternVL2.5-MPO series (#682)
+[33ma5f9632[m [Model]: Support Valley_7B (#689)
+[33maa9f50e[m [Refactor] hide the video dataset related args (#675)
+[33m2fd7140[m [Model] Add new model: LMDeploy api (#688)
+[33m11036ac[m [Fix]: Fix wildvision score bug (#687)
+[33m0433ec9[m [Fix] Fix LLaVA OneVision HF Device Issues
+[33m2a66d65[m [Fix] Fix LLaVA OneVision HF device
+[33m00b6845[m [Fix] Fix #692 (#695)
+[33m8d14149[m [MODEL] Add New Model API , Taichu-VL (#680)
+[33m76ece49[m [Minor] Remove SAIL VL split_model
+[33m070f645[m [Model] Add new model: varco-vision-hf (#678)
+[33me342c81[m [Minor] Update tools
+[33m74572eb[m [Fix] Fix Sail VL
+[33mc12c397[m [Doc] Shorter README
+[33m3ec1d78[m [Doc] Update README
+[33m226212f[m [Model] Add SAIL-VL-2B Model (#681)
+[33m2089e3c[m support official claude
+[33mdbda46a[m [benchmark] add new benchmark: CMMMU (#666)
+[33m216a24a[m TeleMM Minor Fix
+[33m4caa52c[m update README
+[33m2731d79[m Update README.md
+[33m1f9542f[m Update README.md
+[33m547b36f[m [Model] Update TeleMM (#672)
+[33m5316c5f[m [Added/FIxed] added info of NaturalBench in README.md and fixed the metric names for NaturalBench Dataset (#660)
+[33m5787b85[m [Fix] Update requirements
+[33m88f1746[m [Fix] Fix XComposer2d5 (#668)
+[33m8c2c130[m [Improvement] Support Mac with arm CPU (#659)
+[33m2d1c026[m [Model] Support GeminiFlash2-0
+[33m27d8ca8[m Update README.md
+[33m95cf71a[m Update README.md
+[33m250fb37[m [Doc] Update Doc
+[33m63cca2f[m [Doc] Update README
+[33m6e4e106[m [Improvement] Update sleep interval in track_progress_rich
+[33m2a20c23[m update track_progress_rich
+[33me962c4a[m fix track_progress_rich
+[33md11a020[m [Fix] fix env dependency on image_vqa and ovis kwargs usage
+[33m23d0ccd[m update mp_util
+[33m37a2895[m update track_progress_rich
+[33mae067be[m update config
+[33mdda5784[m [Fix] Update SenseChat Vision
+[33m854caac[m Fix MPO bugs (#658)
+[33me7ddd4d[m Update InternVL 2.5 code (#657)
+[33m454d472[m [Improvement] Refactor Pointsv15
+[33mdb06c90[m [Model] Support abab
+[33ma653af4[m support step1.5v mini
+[33ma18f5d6[m [Improvement] Support MM Math Benchmarks (#656)
+[33mbcc8dff[m [Model] Support GLM4v_Plus (#655)
+[33m307208c[m [Benchmark] Add VisOnlyQA dataset (#643)
+[33m4309678[m [Fix] fix requirements and import in mvbench and pointsv15
+[33m5d3cebc[m update mmniah benchmark and relevant internvl model (#640)
+[33m5dae183[m [Model] Add POINTSv1.5 (#642)
+[33m4887024[m [API] Update bailingmm request keyword in json (#647)
+[33m1822263[m [Fix] fix mvbench evaluate process
+[33mbb0fc6b[m [Fix] Update Download URL (#636)
+[33m957de65[m add a data browser
+[33mf628ed1[m [Fix] Fix wrong md5 of WorldMedQA-V (#632)
+[33m54b80c3[m [Fix] Fix Minor Issue of SmolVLM eval on MMBench series
+[33m1d243f9[m [Model] Support SiliconFlowAPI and add two more SmolVLM variants (#631)
+[33med9aa10[m [Fix] Fix Eagle-34B device map
+[33mda0d609[m [Model] Add Ovis1.6-Gemma2-27B (#630)
+[33m37d08c5[m [Fix] update MVBench transform with a simple way
+[33mf5031f6[m [Fix] Fix Llama3.2 90B gpu allocation (#626)
+[33m7453d0d[m [Fix] Fix Llama-Vision error during checking
+[33m46e1e13[m [Doc] Update README
+[33mde267d1[m [Benchmark] Support VizWiz (#609)
+[33md590830[m [Feat] add modelscope download video datasets (#623)
+[33m82b631a[m [Doc] Update broken references (#625)
+[33m7d4c2e0[m [Benchmark] Added MMGenBench benchmark (#627)
+[33me1ca838[m update cot prompt for internvl (#624)
+[33mb656b8b[m [Model] Add TeleMM (#620)
+[33mee7dfb7[m [Doc] Update mmb_eval_gradio
+[33m289bb86[m [Fix] Fix Warning of MMGenBench
+[33mcdc6c55[m [Fix] Fix Eval scripts in Tool
+[33m5405ba1[m Fix SmolVLM import
+[33mc5676a9[m [Fix] Fix Llava_OneVision_HF Import
+[33mea61517[m [Fix] Update mmb_eval_gradio.py
+[33m1f36d98[m update README
+[33mac6ac6a[m Refine MMGenBench
+[33me3e6b54[m [Benchmark] Added MMGenBench benchmark (#614)
+[33mc09cc17[m [Fix] Fix DynaMath
+[33mb1b4f2b[m [Model] Add LLaVA-OneVision HF (#617)
+[33m2c28d59[m [Benchmark] Support DynaMath (#619)
+[33mdee19e2[m [Doc] Update README
+[33m1306be9[m [Improvement] Launch Evaluation w. Config (#610)
+[33mf9bbe27[m update README
+[33mcfacfdd[m [Benchmark] Measuring Quantitative Spatial Reasoning with the Q-Spatial Bench🔥 (#569)
+[33m07ee886[m [Benchmark] Support MM-Math (#618)
+[33m7739374[m [Fix] Enable --reuse with resume from original pkl files with same commit id (#613)
+[33m2270003[m  [Model] Support SmolVLM (#615)
+[33m52a50e3[m [Fix] Idefics on mlvu, tempcompass and mvbench
+[33m2b6b4a2[m [Fix] aria on mvbench and llava_onevision in video benchmark
+[33m9f21ee8[m Fix MME-RealWorld-Lite TSV Link
+[33m7859c04[m [Minor] Fix Track Progress Rich
+[33m62cb49a[m [Minor] Refine GPT error message
+[33m22a96f7[m [Fix] qwen2-vl video nframe setting with getting overall frame num first
+[33mf295c0d[m [Benchmark] Add mme-realworld-lite (#606)
+[33mf25b91a[m [Doc] Update README
+[33m089dc35[m [Benchmark] Add new benchmark: Olympiadbench (#603)
+[33m1805a03[m [Model] Add RBDash v1.5 (#587)
+[33m1d28b67[m [Dataset] Support WildVision Bench (#608)
+[33m7de2dcb[m update InternVL2-8B-MPO (#601)
+[33m7cec772[m fix minor (#604)
+[33md3fb527[m [Fix] TempCompass Caption_matching rules
+[33m8f2b1f0[m [Fix] Fix MIA-Bench (#602)
+[33m8cd8d48[m [Fix] fix generate tsv in TempCompass_Captioning
+[33mdd37c3f[m [Fix] ChatAPI can accept images in the format of "data:image/{mime};base64,{b64}"
+[33mff47c20[m update aria with rearrange data in mlvu and tempcompass
+[33m7a8d5c1[m [Doc] update news with longvideobench
+[33m27a3133[m [Doc] add LongVideoBench
+[33m45a7d2f[m [Model] Add Vintern-1B-v2 (#576)
+[33m8859362[m fixed MVBench preprocessing (#593)
+[33m78a8cef[m [Doc] Update README
+[33m33540b1[m [Benchmark] Add MIA-Bench (#597)
+[33me471b48[m fix inference_video
+[33maaf24c5[m [Fix] Fix preproc w. role (#599)
+[33m84c048b[m [Model] Update JTVL (#594)
+[33m23d51c9[m support api model with role in message
+[33m3837e3f[m fix lint
+[33m85b211b[m fix dataset/mvbench with move_files problem
+[33me4aba0c[m fix inference_video with qwen2vl
+[33m5909008[m fix tempcompass json save path
+[33m3c0afb5[m fix get_cache_path with try-except logic
+[33ma025a37[m fix hf_cache_root in file.py
+[33m482b38d[m [Fix] Update run.py
+[33m7485d62[m [Add] Benchmark: NaturalBench (NeurIPS24) (#582)
+[33mef766b8[m [Model] Add Aria (#573)
+[33m4ff78b6[m [Improvement] Save evaluation results w. git commit ID and evaluation date, to improve reproducibility (#583)
+[33m579ea68[m qwen2-vl support nframe
+[33mf927e17[m remove another fps in result file name
+[33m33a09c3[m update encode_image_to_base64
+[33m48d7021[m [Doc] Update README & Quickstart (#579)
+[33mc27354c[m [Fix] Fix AMBER Benchmark and its md5 (#575)
+[33m0c44cd2[m [Improvement] Align evaluation results with paper (#563)
+[33m438e972[m [Fix] Fix Qwen2VL API max_tokens, set to 1024 since the error log says it does not support 2000+
+[33mbe60d90[m [Benchmark] Support WorldMedQA-V (#572)
+[33mc733356[m [Fix] Fix Amber URL
+[33mbb83c1c[m [Improvement] Update CoT prompt for internvl (#574)
+[33m0dbb70e[m fix tempcompass_yorn evaluation and videochat2 performance in tempcompass_mcq
+[33m7957e99[m [Fix] Fix InternVL split model for up-to-date torch versions (2.2+)
+[33m2b3f1af[m [Improvement] Support auto_split flag (#566)
+[33mf106695[m [Fix] Fix run.py (#565)
+[33m6bc7f5d[m [Fix] Fix #546 (#562)
+[33m89dcb23[m [Improvement] Refine run.py (#560)
+[33m0632e67[m [Fix] Fix H2OVL
+[33m1485fb4[m [Model] Add support for H2OVL Mississippi model series (#555)
+[33mbc446a9[m [Model] add support for llava_video (#549)
+[33m006aa29[m [Benchmark] add support for MLVU and TempCompass (#558)
+[33mda111b1[m [Improvement] Reduce get_cache_path function time consumption (#559)
+[33md0f06f6[m [Improvement] update cot evaluation prompt for internvl (#557)
+[33m145134b[m Fix Falcon2-VLM import
+[33me1e8305[m add Falcon2-VLM-11B in configs
+[33m36145eb[m [Model] Support Falcon2 VLM (#556)
+[33m9e36f95[m [Fix] Fix Qwen2 VL 72B device map
+[33m9099cda[m Add Qwen2-VL-72B
+[33mbdc3611[m [Minor] Improve device_map for Qwen2-VL-72B
+[33meb3dbf1[m add claude3.5v sonnet 20241022
+[33m30add16[m [Model] Add Taiyi API (#544)
+[33m490bb4e[m [Minor] Fix summarize.py
+[33mbab8b97[m [Fix] Fix Vintern for dataset is None
+[33m7dd9efc[m [Minor] Less Codes for Vintern
+[33mae464fa[m [Model] Support Vintern (#538)
+[33mb3a2f81[m [Minor] Fix Janus
+[33m3a1dd6f[m [Model] add support for Aquila-VL-2B (#529)
+[33mddf4a90[m [Model] Add Ovis1.6-Llama3.2-3B model (#537)
+[33mf65c411[m [VideoData] Add fps sample in mmbench video (#381)
+[33m118d6ab[m [Minor] dataset = None for Janus
+[33m4a1498b[m [Minor] Rename Janus
+[33mf4646f7[m [Model] Add Janus-1.3B (#541)
+[33mdb31bbb[m  update visualized.ipynb (#516)
+[33m1da735f[m [Fix] Fix Lint
+[33m3b505cb[m Feature add bailingmm (#496)
+[33m584ea4b[m Fix some typos (#542)
+[33m321ee18[m [Model] Support JT-VL-Chat (#536)
+[33m6d20d68[m [Fix] Molmo (#540)
+[33m222cf5f[m Fix the error related to the model path in Pixtral. (#535)
+[33m4d6d204[m [Model] Fix Moondream2
+[33m8405b86[m [Model] Include two more Molmo variants
+[33mec6e4ee[m fix okvqa
+[33mab13b04[m [Model] Support NVLM (#527)
+[33m97ab74b[m Fix llama-vision device map
+[33m263fa6d[m Fix logging
+[33m33caec0[m [Fix] Fix Llama-VIsion MultiProc
+[33m9fa8965[m [Improvement] Refine Error MSG (#524)
+[33m9b684b4[m [Feature]: POINTS-Qwen2.5-7B (#520)
+[33m8296a2a[m [Doc] Update Kosmos2
+[33m69b7b5e[m [Improvement] Optimize Error MSG (#519)
+[33m9871435[m [Minor] Add stopping criteria to LLaVA_Next2 and LLaVA_OneVision (#511)
+[33m058f673[m [Model] add support for Molmo-7B-O/D-0924 (#513)
+[33m819e9e6[m [Benchmark] Add GMAI_MMBench Test (#498)
+[33m412f0ec[m [Feature]: Add POINTS (#501)
+[33mbe54279[m [Dataset] Adding R-Bench MCQ Section (#509)
+[33m60be69a[m [Minor] Fix format issue (#508)
+[33m9405081[m update mmbench-video repo_id
+[33md7984e4[m [Model] Add Kosmos2 (#494)
+[33m2c000ad[m [Minor] Add warning for benchmarks test splits without GT answers: InfoVQA_TEST, Q-Bench1_TEST, etc.
+[33mc164aa8[m [Model] Update Step-1V
+[33m676301a[m [Fix] Fix Y/N type error (#506)
+[33m141dc9c[m update README
+[33m9f181b4[m add XinYuan-VL-2B (#488)
+[33m16141da[m [Model] add support for Llama-3.2-11B/90B-Vision-Instruct (#490)
+[33m9726f41[m [Doc] Update README.md (#489)
+[33mdf37216[m add BlueLM-V api (#486)
+[33mf67239c[m update README
+[33mb7bc19c[m [Fix] Fix Eagle-X inference
+[33mfced49d[m [Minor] Fix Eagle Eval
+[33m4999cce[m [Fix] Import re in MoonDream
+[33m56fe006[m fix moondream
+[33m04d90d4[m update
+[33m5d56b72[m update
+[33mc6dce55[m [Fix] Fix Moondream inference
+[33m5793ee9[m [Minor] Fix Moondream Inference
+[33mb5c31ad[m [Minor] Fix Moondream generate_inner
+[33me542cae[m [Minor] Set the kwargs default for internvl_chat. Max_new_tokens to 1024.
+[33mde1b457[m update README
+[33md2de50a[m add support for mplug_owl3 build prompt for mvbench and qwen2-vl for video benchmark
+[33mc83968e[m [Fix] Fix Qwen2-VL
+[33m063a020[m update QwenVL2 building device
+[33me254f00[m [Benchmark] MathVerse (#483)
+[33m48b3224[m [Models] add moondream1 and moondream2 models (#481)
+[33m9ca28fd[m [Fix] Add try-except block in model-dataset combination processing to prevent single errors from halting subsequent runs
+[33mf3a50e3[m [Fix] Replace logger.error with logger.exception in run.py to log detailed exception information
+[33m2ffc251[m fix lint in readme
+[33m7b634b5[m minor update in InternVL for MVBench evaluation
+[33md6d8b27[m Merge branch 'main' into add_try_except
+[33m5974515[m add try-except block
+[33md358b42[m [Dataset] Amber benchmark (#475)
+[33m3cdaa57[m [Model] Add Eagle x series model  (#476)
+[33m114453e[m [Fix] Update prompts for InternVL2 (#474)
+[33mce866b8[m [Fix]: Added Model Type Conversion for MiniMonkey and Updated Model Path
+[33mae54f5d[m fix minimonkey link
+[33mcdca9d4[m fix minimonkey link
+[33m5ad3811[m [Model] Add Ovis1.6-Gemma2-9B (#472)
+[33m11426a9[m update mvbench with minor change (set model in evaluate)
+[33m1f96d21[m [Improvement] Optimize LLaVA-OneVision Inference (#470)
+[33md1aafac[m [Fix] Update Multiple Choice
+[33m41086a2[m update multiple_choice assert
+[33m8e8027b[m [Model] Update Pixtral (#465)
+[33mc98ff1e[m [Model] Support Qwen-VL-Plus-0809
+[33mbad52e8[m [Fix] Fix program error exit without synchronization. (#464)
+[33m4d75c1e[m [Fix] Correct min_pixels setting in ocrbench module and fix qwen2vl
+[33ma5a3709[m Merge branch 'main' into kq-chen-patch/qwen2vl_ocrbench
+[33m6c34a94[m update pre-commit
+[33m96b0c07[m [Fix] Fix Gemini GenAI backend
+[33m7a9ea74[m fix videomme bug
+[33mb971b95[m [Minor] Fix Config
+[33mc4cea41[m [Model] Support GeminiFlash1-5
+[33mfba2789[m [Feature]: Add pre-commit.ci integration for automated PR fixes (#462)
+[33md5e61ea[m [Model]: Add MiniMonkey Model to VLMEvalKit #457
+[33m60e064d[m fix(qwen2vl) freeze ocrbench min_pixels
+[33m5803732[m [Benchmark] CRPE (#445)
+[33m42e6dbd[m [Fix] Corrected model prompts to align with the MME-RealWorld dataset
+[33m46fc92a[m Merge branch 'minimonkey' of github.com:white2018/VLMEvalKit into minimonkey
+[33m3583961[m fix fails: W291 trailing whitespace
+[33m0875b7b[m Fix lint errors
+[33m2c8a158[m fix trim white space
+[33m4a95cfb[m update lint
+[33m4c03554[m add support for video dataset using model custom prompt
+[33m2a0bea5[m [Minor] minor update to slime names
+[33m1b36a77[m mme-realworld-prompt
+[33mb94a424[m mme-realworld-prompt
+[33m78f11b8[m fix checking problem
+[33mfd4dbf8[m [Fix] Adjust Scoring Function and CSV Formatting in MME-RealWorld
+[33ma4472b5[m mme-realworld-score
+[33m1fee10e[m support MiniMonkey model
+[33md084cb0[m mme-realworld-score
+[33m5b28898[m mme-realworld-score
+[33m9890cd5[m [Minor] Fix Mantis-8B-Fuyu Inference
+[33mc3a0605[m update lint and add chat-univi-1.5
+[33m9447c3a[m update VideoMME and MVBench with LLM-extract option, minor update in chat-univi and pllava setting
+[33m759d181[m [Minor] Allow MMEVAL_ROOT in run.py
+[33ma9c0687[m Merge branches 'main' and 'main' of github.com:open-compass/VLMEvalKit
+[33m599bd02[m update readme and fix lint
+[33ma8ec473[m [Benchmark] Supported HR-Bench (#430)
+[33mb3392af[m [Minor] Fix Gemini
+[33m05bbba1[m [Model] add qwen2vl api and fix prompt (#451)
+[33m5a7faa5[m slime (#450)
+[33m496e7dc[m Merge branches 'main' and 'main' of github.com:open-compass/VLMEvalKit
+[33mda4bb20[m update README
+[33md1f1f65[m [Model] mPLUG-Owl3 Added (#403)
+[33m1a5ec34[m [Minor] Remove DataType defn for Qwen2VLChat
+[33mb62a053[m [Minor] Update HF Data File Download Logic
+[33m9a57ff1[m [Model] qwen2vl Added (#423)
+[33mfe3b894[m add MMERealWorld config
+[33m1ff25a9[m [Minor] Update tools mlist
+[33m9eec8bb[m [Feature] Support custom_prompt for API models (#447)
+[33m3b641bf[m Update eos_token for HF converted xgen-mm (#443)
+[33m8583dc1[m update llava onevision
+[33m1e2c6bb[m [Model] RBDash Added (#429)
+[33m112c095[m [Model] Xgen MM (#410)
+[33m0ff0c3e[m [Doc] Add Contributor 2409 (#441)
+[33m3dfe297[m [Dataset] Add GQA TestDev Balanced Split to Dataset (#431)
+[33m79bf899[m [Support] update llava-onevision with video generation support (#440)
+[33m4c7f20c[m mme-realworld (#418)
+[33mb779baa[m update README for tablevqabench
+[33m10adf5f[m [Benchmark] support TableVQABench (#401)
+[33m0719911[m fix readme
+[33m58f8a5e[m [Model] add support for PLLaVA Series (#427)
+[33m520d0af[m [doc] Update README
+[33m30da76d[m [Minor] Treat Custom Dataset as MCQ
+[33m8abe7fd[m [doc] update README
+[33mdfe0f69[m convert base64 images -> disk to memory (#426)
+[33me85b279[m Update tools.py (#422)
+[33mdddc52d[m [Fix] Add packages to `requirements.txt` to Resolve Import Errors in `VLMEvalKit` (#425)
+[33m733e854[m [Fix] Restore `vlmeval/dataset/utils/mvbench.py`
+[33m4719930[m [Minor] add an explicit `fmt` arg for `load`
+[33m78c67a5[m [Benchmark] Muir Bench Added (#383)
+[33mdacba6b[m [Minor] Fix MMAlaya2 (#420)
+[33me262a21[m update videochat2-hd config json
+[33m704ef12[m update videochat2
+[33m13d1447[m [Benchmark] Add A-OKVQA dataset (#414)
+[33m161b6ea[m [Feature] Update output directory configuration to prevent tracking evaluation results
+[33m99763ee[m [Model] add support for VideoChat2_HD
+[33m4580794[m merge main
+[33m8db89c9[m update readme
+[33m9f0477a[m update videochat2 with mmbench support
+[33mda63900[m [Minor] Update tools.py (#408)
+[33m698d637[m merge main branch
+[33mf19af7a[m fix bug in run.py
+[33m0356451[m Merge branch 'main' of https://github.com/open-compass/VLMEvalKit
+[33maf92ff7[m update video-chatgpt with init
+[33me10a5f0[m [Benchmark] support MVBench and MVBench_MP4
+[33md8290e9[m update readme and branch name
+[33m0ab45e1[m Merge branch 'main' into MVBench
+[33m27dbfeb[m update
+[33m721a722[m Merge branch 'main' into MVBench
+[33mfd1521a[m [Model] add support for Video-ChatGPT, Chat-UniVI and LLaMA-VID
+[33mf090f4d[m update readme
+[33m9b572d6[m Update .gitignore
+[33mea7f8ec[m fix lint and update
+[33me7330ab[m Merge branch 'main' into new3video
+[33m0176e46[m Fix Idefics3
+[33mdfecdcb[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m460c1e0[m Fix API
+[33mb17ee75[m [Model] MMAlaya2 Added (#399)
+[33m5d1e0f9[m [Model] Idefics3 Addition (#379)
+[33m5bf7e37[m update config.py
+[33mccc6eb7[m [Model] Phi3.5 Added (#396)
+[33m0e54978[m update video chatgpt
+[33me3aba57[m update with the support of LLaMA-VID and some modify in Chat_Univi
+[33m4b0a226[m Merge branch 'new3video' of https://github.com/PhoenixZ810/VLMEvalKit into PhoenixZ810-new3video
+[33mf85582b[m [Fix] Fix OmChat Eval for POPE
+[33m57d6f3a[m [Doc] Updated readme for OmChat  (#397)
+[33m820176c[m [Model] Support Parrot model (#395)
+[33mf52666a[m [Model] Add Support for OmChat Model (#394)
+[33m27cfb73[m fix lint
+[33m488b393[m [Fix] fix inference_video
+[33m99639d6[m [Model] Add Support for LLaVA-OneVision Models (#389)
+[33m2555598[m Fix Lint
+[33md100d0f[m [Fix] Fix mathvista Idefics2 (#393)
+[33mc4301c9[m update step-1v
+[33m91b6203[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m8381535[m update README
+[33md723d51[m [Feature] Support Evaluating Multiple Dataset Splits at the same time with a `ConcatDataset` (#392)
+[33m69268c7[m [Benchmark] Add GMAI_MMBench benchmark (#374)
+[33m5e4df73[m [Feature] Multi-Turn for InternVL2 (#376)
+[33mb92cba1[m comment annotation
+[33m5e79dd2[m [Model] Support MixSense (#390)
+[33m75928be[m rename file
+[33m6d51697[m Merge branch 'main' into MVBench
+[33m0697b14[m [Feature] Add English ReadTheDocs Support (#388)
+[33m43daf63[m Fix bug in inference_video.py
+[33m54c1cc9[m [Minor] Update README
+[33mceda6bc[m [Benchmark] Add MMMB and Multilingual MMBench (#380)
+[33m22991ca[m Fix GPT Log Level
+[33ma3c99ea[m fix lint
+[33me607dbb[m [Fix] Fix HunYuan typo
+[33m531f5fb[m [VLM] Add HunYuan-Vision
+[33mcc34176[m Add Bold
+[33mb14c3dc[m update README
+[33m566bc6c[m [Feature] Update Chinese Documentation with ReadTheDocs Integration (#364)
+[33m2ca3467[m [Update] update readme (#372)
+[33mef304c6[m Merge branch 'MVBench' into videochat2
+[33m89885b2[m update MVBench
+[33m08d049c[m support dataset=None for MiniCPM-V-2_6
+[33m42802c2[m [Minor] Fix Skip Models
+[33mad5aa8d[m [Fix] Do not localize DUDE dataset
+[33m6672287[m [Minor] Update Font URL for SimHei
+[33m6425dc1[m [VLM] Support GPT4o_20240806
+[33m27f91c2[m [VLM] Add MiniCPM-V-2_6 (#368)
+[33m9d79fa2[m [Update] update tools skip model (#361)
+[33m54bb0b9[m [Improvement] Update tools.py (#367)
+[33m3da246f[m [Fix] Resolve naming conflicts
+[33mec17690[m [Benchmark] Support DUDE and SlideVQA (#338)
+[33medc8ea7[m [Fix] Fix mantis_idefics (#366)
+[33m135d633[m update to match videochat2
+[33m01d0d52[m update MVBench and videochat2 for better decouple
+[33m69a5049[m Merge branch 'MVBench' into videochat2
+[33md0b271b[m fix lint
+[33m2be025f[m add mvbench_mp4
+[33m8419a76[m Remove .history file
+[33m9ec8293[m add videochatgpt, chatunivi, llamavid
+[33m685e82a[m add support for VideoChat2_HD (MCQ pattern)
+[33m44758ec[m [Update] Readme
+[33m990f035[m [Benchmark] Support TaskMeAnything-v1-imageqa-random dataset
+[33mc496020[m [Doc] Update readme (#358)
+[33m33d4b2f[m [Doc] Update README
+[33m8d1c243[m [Benchmark] Add AI2D_TEST_NO_MASK benchmark (#344)
+[33mccfed11[m [Typo] Update Quickstart.md (#354)
+[33mf547007[m [Minor] Reduce Requirements
+[33m5ac85ed[m init for videochat2
+[33m5b0f117[m [Fix]To fix up mantis warnings
+[33m3d8027d[m [Support] Support for Text dataset
+[33m023ad87[m [Model] Add the Mantis Model
+[33m65a19f6[m [Fix] Align video performance of InternVL
+[33madeb759[m fix
+[33mc73a2c9[m [Support] Phi3-Vision with MultiTurn Support for MMDU
+[33mcdd3287[m [Dataset] Adding the Q-Bench1 and A-Bench dataset
+[33m1ec8c10[m Fix MathVision Evaluation
+[33m4cf4d6c[m update
+[33m16f66ff[m fix syntax error
+[33m8e7cc90[m Revert "fix lint"
+[33mbfaf7af[m fix
+[33m385f971[m fix
+[33m2f141a6[m trim trailing white space
+[33mfd48130[m fix lint
+[33mbf114b5[m fix lint
+[33m9829ed2[m add mvbench move files and save frames function
+[33m66dbc94[m update
+[33mbb9b8e1[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m320d8f5[m update
+[33m8475279[m pull
+[33m3e6fe43[m ignore
+[33m4cdbb97[m [Update] Update and Fix llava next series
+[33mc1fe04a[m [Support] Ovis1.5-Gemma2-9B
+[33m3120a5b[m support MMLongBench for xcomposer2d5 (#327)
+[33mbdb0ae7[m [Model Update] VILA 3B
+[33m736da49[m update README
+[33m27be65d[m fix with mvbench(img)
+[33mfde6706[m [Fix] import bug
+[33m8e0aace[m [Update] Consistentcy for Idefics
+[33m0190565[m Merge branch 'main' into MVBench
+[33m8ba5bcf[m add mvbench into VLMEvalKit (test videollava, not align)
+[33mdb0b648[m update README
+[33mc6db36a[m update README
+[33ma46f3f6[m [Benchmark] Support MMDU (#322)
+[33m93581dd[m [Fix] Idefics Inference
+[33m0fc3932[m [Update] Readme
+[33m7deeb8a[m [Model] Support VILA model
+[33mcaae675[m [Model] Add support for Ovis1.5
+[33m25bd630[m [Update] tool
+[33m0db80ce[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m9eff595[m doc minor fix
+[33mcc259e8[m [Model] support Video-LLaVA model and its huggingface version
+[33m1dc7bda[m update README_zh-CN
+[33m730c5c9[m fix lint in README and update README_ja and README_zh-CN
+[33m0b4e293[m fix lint in readme
+[33ma6f152b[m fix lint
+[33m21fc74f[m update VideoMME.build_prompt and nframe attribute in inference_video
+[33m9949e2c[m Merge branch 'main' into video_llava_support
+[33ma0649db[m modify INSTALL_REQ in class VideoLLaVA
+[33mb797969[m Merge pull request #270 from dirkiedai/add-video-mme
+[33m567ab0f[m modify type and readme
+[33m918af47[m Merge branch 'main' into add-video-mme
+[33m9e02e31[m Merge branch 'main' into video_llava_support
+[33m157c41e[m skip RekeCore
+[33mabaa7e0[m [Dataset] Support MT-VQA (#306)
+[33m362379a[m fix lint
+[33m3484a63[m update with fix support_dataset and save frames problem
+[33mcda0b60[m [Model] support chameleon model (#304)
+[33m3f3edcb[m [Update] update development doc (#296)
+[33mb6aa4d0[m fix end-of-file problem
+[33m171378b[m fix double-quote-string
+[33m9e5a62b[m fix lint
+[33md3112ce[m fix lint
+[33m424440d[m fix lint
+[33m61e668d[m Merge branch 'main' into add-video-mme
+[33m57ca43f[m update apires_scan
+[33m503d3a2[m update `vlmutil missing` cmd
+[33m2afcbf4[m Fix apires_scan
+[33m934ff60[m update skip_list
+[33maf44601[m update logics of SKIP_MODELS
+[33m009cc9c[m [Fix] fix typo (#301)
+[33m3125b55[m update claude
+[33mba02683[m update gitignore
+[33m08581f4[m update readme
+[33m39b68f2[m Merge branch 'main' into video_llava_support
+[33m7f47176[m support video-llava and its huggingface version
+[33m76ee10e[m[33m ([m[1;31morigin/multi_gpu[m[33m)[m support GPT-4o-Mini
+[33m63cd1bb[m [Doc] Update readme (#297)
+[33m6f13648[m update README
+[33mf9d36a8[m update README
+[33m2006f19[m update README
+[33m97ffbce[m Merge branches 'main' and 'main' of github.com:open-compass/VLMEvalKit
+[33mddeaf4e[m update link
+[33ma8850b0[m Update README.md
+[33m0b67dac[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m0ade5cd[m update README
+[33m04cd04b[m [Model] Support Llava-Next-Interleave
+[33m24f7def[m [Benchmark] Support MATH-Vision (#292)
+[33m8e72b45[m update config
+[33me4f55f0[m [Fix] fix minor typo
+[33mc36135a[m fix minor typo
+[33m61eddb0[m typo fix
+[33m1717458[m Fix InternVLChat-v2-76B
+[33m8637c4d[m update config
+[33mfb9c4d4[m bug fix
+[33m845c4ea[m support setting EVAL_PROXY
+[33m557805d[m update README
+[33m646e7bc[m [Benchmark] Support BLINK (#281)
+[33maae54e6[m [Update] Update bunnyllama3
+[33mf141a3e[m Update bunnyllama3.py
+[33ma32622a[m support internvl2-76b
+[33ma11b8ca[m [Update] Customize prompt for Bunny
+[33m6f33298[m Update bunnyllama3.py
+[33mf40f37d[m [Update] update dataset init class
+[33m9a15520[m Update Bunny
+[33m03caf7e[m update
+[33mbd5a136[m update
+[33m0d0422a[m update dataset init
+[33m5c09922[m [Fix] fix dataset dist init & minor typo
+[33mab20c2a[m fix dataset dist init
+[33m54f1bb1[m Add tool and update model config
+[33m50998a9[m [Fix] Change the displaying of the VCR Dataset Name
+[33md7f9e94[m Update README_zh-CN.md
+[33me421ce7[m Update Development_zh-CN.md
+[33m5fcdac1[m Update README_ja.md
+[33m6190534[m Update Development.md
+[33mf6eee73[m Change the displaying of the Dataset Name
+[33me67c71a[m [Support] support mmlongbench_doc
+[33mcbf5831[m delete file
+[33m876d9d2[m code review
+[33mf9cd9f0[m Merge branch 'main' into mmlongbench
+[33m8cb1270[m [Fix] fix readme typo
+[33m6dbb7af[m [Support] spport VCR benchmark
+[33m7f9c71b[m update readme
+[33m5526c1b[m update vcr.py
+[33mf0003db[m docs: update README.md
+[33m73e7dfa[m Update vcr
+[33m0c8751e[m update
+[33m868c16e[m support mmlongbench benchmark
+[33me5d67c4[m [Fix] fix api model inference (#275)
+[33mb3af8ca[m Merge branch 'open-compass:main' into main
+[33m027e38c[m update
+[33m8005e44[m [Fix] Update mp_util.py to Fix #272 (#273)
+[33m3ca2c60[m support the eval method in vlmutil
+[33m32221f5[m Add Support for Video-MME
+[33m9e00479[m Add Support for Video-MME
+[33m18813f6[m Add Support for Video-MME
+[33m21a3ff0[m Add Support for Video-MME
+[33m5b37f7d[m Merge branch 'open-compass:main' into main
+[33mc91b8b2[m [Update] Result download link
+[33mb152e47[m update result link
+[33m298430f[m Coauthored by Suyuchen Wang: Fix VCR links
+[33mde800cf[m add vcr
+[33m71abe68[m fixed dataset creation
+[33mf2e4ef9[m [Fix] Udpate MMBench prompt for nopack (#266)
+[33m21dd5ef[m [Improvement] Refactor Dataset (#265)
+[33m6663469[m [Update] README
+[33m8593bce[m update
+[33m3c1a301[m update
+[33m9724039[m update readme
+[33m8d1551f[m [Add model] Internlm-XComposer2.5
+[33m053c2f9[m Update xcomposer2d5.py
+[33m3600d2c[m Update config.py
+[33me20884d[m add xcomposer 2.5
+[33m27383cf[m [Update] Readme
+[33m3ae1cac[m Update Readme
+[33m81caef0[m [Add Model] InternVL2 series
+[33m6c0c313[m Update internvl_chat.py
+[33mc8bf44d[m Support InternVL2 series
+[33me7bdd38[m [API] Support SenseChat-5-Vision (#255)
+[33m03cc808[m [Update] transformers version & dataset type
+[33m7249d02[m Update
+[33m587a957[m Merge branch 'update' of https://github.com/junming-yang/VLMEvalKit into update
+[33m1ad756e[m [Prompt] update prompts for cogvlm & GLM4v-9B (#251)
+[33md135440[m Minor Fix
+[33m30c9bec[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m9315907[m support step-1v-0701
+[33mff8017c[m [Benchmark] Add Aesbench test (#246)
+[33m3e4b3ad[m [Benchmark] Support AesBench_TEST (#248)
+[33mac12ea0[m update hf-mirror download
+[33m5ac6bcf[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m7374af0[m robust download for huggingface links
+[33m507975d[m[33m ([m[1;33mtag: v0.2rc1[m[33m)[m [Dataset] Add AesBench VAL (#240)
+[33mf6c9f5e[m Add Cambrian Model
+[33m09da91c[m update
+[33m705d3d2[m add cambrian model
+[33m28612cd[m [Dataset] Add config for MLLMGuard_DS (#242)
+[33m12602be[m [Improvement] Update dataset import (#241)
+[33m6e78ca2[m update dataset import
+[33mea84134[m [Fix] Fix LOCALIZE Tool 2
+[33m280e527[m [Fix] Fix Localize Tool
+[33m88244db[m [Fix] Fix get_image_token_length
+[33m796dc7c[m [Dataset] Support MMBench-Video (#229)
+[33mf6892ef[m update args for congrong
+[33m0c8173c[m Refine split_MMMU
+[33m65664c0[m update README
+[33m57efd34[m [Fix] Switch to GPT-3.5-Turbo-0125 for Choice Extraction (#234)
+[33m7fef72b[m Support Claude3.5
+[33m1a29d5c[m update apires_scan
+[33md24a184[m update
+[33m559dd68[m update apires_scan
+[33mc6060e7[m refactor README
+[33m2961d72[m update
+[33m77d7c65[m update README
+[33me3ea6d7[m refactor README
+[33m69a132f[m [Doc] Add chinese quickstart (#233)
+[33meb82954[m [Doc] add README in Japanese (#232)
+[33m5791b18[m Fix CloudWalk
+[33m0ff4559[m update README
+[33m75e5658[m support CloudWalk
+[33m8326d32[m Merge pull request #231 from junming-yang/tool
+[33m3970907[m update
+[33m9fe5453[m update tools
+[33m592321b[m [Doc] Add CN development guide (#230)
+[33m4aaea05[m Update Dev Guides
+[33mab638e4[m Remove isliststr
+[33me073a7e[m fix decode
+[33m2cc19f3[m update dataset_config
+[33mee1d90f[m [Dataset] Support SEEDBench2 (#226)
+[33m77e05b0[m [Feature] Prepare & Localize TSV files for Large Data Files (#225)
+[33m674affd[m [Dataset] MMT-Bench (#223)
+[33m45d0b37[m minor update for CCBench: fix a single faulty question
+[33m8106439[m fix glm-4v-9b
+[33mbec4a40[m [Model] Support glm-4v-9b (#221)
+[33m90345e9[m update tools
+[33m508b32b[m [Eval] Update VQA prompt (#217)
+[33mce1fbbf[m [Model] Add support for WeMM (#218)
+[33me079c18[m glm4v can accept input w/o. dataset flag now.
+[33me0ece59[m update config
+[33mf74b12a[m [Improvement] Support Azure OpenAI API (#214)
+[33mbf8ff24[m Merge pull request #216 from czczup/patch-1
+[33mb9a00b8[m Update config.py
+[33m8f5ea2a[m [Improvement] Now compatible with Gemini w. vertex backend
+[33me0f9ef2[m [Fix] Update Tool (#215)
+[33ma40a90d[m update README
+[33mdc25e69[m Add Mini-InternVL-Chat-2B-V1-5 (#212)
+[33mb31eb01[m update command run
+[33m325df3b[m update README & support SEEDBench2_Plus
+[33m4853b9e[m [Tool] Add a cli command `vlmutil` (#211)
+[33m4575144[m [Model] Add cogvlm2 and phi-3-vision model (#209)
+[33m02b9ebc[m update
+[33m8ff5748[m [Model] Add support for 360VL-70B (#208)
+[33m5338d02[m add a License file
+[33mf0bb323[m fix
+[33mce76f1c[m update README and config
+[33m8347c87[m [Model] Add MiniCPM-Llama3-V-2_5 (#205)
+[33m0c8edad[m update paligemma
+[33m1aab0aa[m fix
+[33m8244a86[m set max_pixels to a large value
+[33mb02a29e[m update README
+[33ma23e412[m update run.py
+[33m35dfc71[m minor change in `help.py`
+[33maff3caa[m fix help.py
+[33m6d9a5dc[m add help.py in scripts
+[33m4b065b1[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33mc4d1e9a[m handle corner case
+[33m2d681dc[m Merge pull request #203 from junming-yang/step1v
+[33mdfa33e5[m Update stepai
+[33mfe2e4ff[m update
+[33meee11ad[m [Model] Feature add glmv (#201)
+[33me696ef7[m [Model] Support for PaliGemma model (#202)
+[33md3d412c[m Fix dataset
+[33m84eb8b2[m support meta only dataset
+[33me75fe7a[m update localize_tsv
+[33mdee2a3c[m [Model] Support gpt4o model (#200)
+[33m3e74cb9[m update build_circular
+[33m32b0072[m support build_circular
+[33m134e1b8[m fix arg
+[33m1e69785[m update step1v
+[33mf0c3542[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m936192e[m update report_missing
+[33m3f5e468[m [Fix] Fix xcomposer error during inference (#197)
+[33md960cca[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m1efad00[m api_res scan also detects eval_files
+[33m4722e1f[m [Model] support for XVERSE-V-13B model (#183)
+[33m27e73e4[m log api base and key
+[33m7a9522b[m Fix `load_env` in `__main__` of eval scripts
+[33mddd6df8[m add load_env in `__main__` of eval scripts
+[33m70985e4[m typo fix
+[33mcd470c5[m Merge pull request #174 from TousenKaname/main
+[33m131fa19[m update README
+[33m4af0506[m Update mgm.py format
+[33mc33a57a[m update README
+[33mb708be9[m Merge branch 'main' into main
+[33m56bc815[m Update mgm.py
+[33mae08743[m Update config.py
+[33me3f5da7[m Update README
+[33m62bcc37[m [Model] Support for LLaVA-Llama3-8B model (#188)
+[33mdca201c[m update run.py
+[33m9e4326c[m [Doc] Update README (#189)
+[33m681df11[m [Dataset] MMBench V11 (#185)
+[33m8dafc19[m [Model] Support for Bunny-Llama3 model (#184)
+[33m3cac19c[m [Dataset] Support MMBench V1.1 (#182)
+[33mf84d7c5[m [Dataset] Support for POPE dataset (#180)
+[33m05ae57e[m mgm_7b_hd
+[33m0cc5bfd[m [Fix] Fix slow inference for LLaVA-NeXT (#178)
+[33m9ba7d08[m [API] Reka API (#177)
+[33m15f4992[m update README
+[33m1b8b774[m [Improvement] Idefics2 almost matching prompts (#170)
+[33m36dee30[m [Doc] Add Chinese README (#175)
+[33m3562b54[m mgm_7b
+[33m93fb08e[m mgm_7b
+[33mdc2e6d8[m rename
+[33mef5a578[m remove preview tag
+[33m2061d58[m update summarize
+[33m87c78cc[m Fix RealWorldQA (#169)
+[33mf2ec43b[m Update README.md
+[33m52ab80f[m [Fix] Fix RealWorldQA (#167)
+[33m190e438[m A new target_size arg for mmqa_display
+[33m8b6160b[m add RealWorldQA
+[33mfe5db52[m add SKIP_MODELS
+[33m291e329[m [Fix] Fix apply_prompt_template for LLaVANeXT
+[33m0dfb188[m [Fix] No interleave for LLaVA_Next
+[33m6dd846d[m fix bug in set device
+[33m08461fb[m Fix MiniCPM-V-2 name
+[33m3fb61a6[m update
+[33m243ec31[m support apires_scan
+[33m37a482a[m use `LOCAL_RANK` to set device
+[33m36be5f3[m update
+[33mb21bfdb[m update rank inits
+[33m7de8f0f[m Update README.md
+[33mc26761b[m [Fix] Fix minor issues of MathVista evaluation
+[33m74ada5b[m fix ideficsv2
+[33m064a731[m [Model] Support for Idefics2 model and fix XComposer2_4KHD (#163)
+[33mbd5cc91[m [Fix] LLaVA Interleave (#164)
+[33mf57fc5e[m Update README.md
+[33mc623cd2[m [Fix] Fix MMStar dataset (#162)
+[33m7b4dc98[m [Model] Support for InternLM-XComposer2-1.8B model (#155)
+[33m0165b37[m [Improvement] LLaVA Interleave (#161)
+[33m64a45c4[m [Fix] Fix MMMU (#160)
+[33m2444fa1[m [Fix] fix MMMU (#159)
+[33m7cdf7c8[m Update README.md
+[33m34789e6[m update
+[33m4ad5481[m [Model] Add InternVL-Chat-V1-5 (#157)
+[33m9146931[m fix run.py
+[33m762af8e[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m7cd3ec7[m bug fix for MMVet
+[33md31e804[m [Dataset] Support for RealWorldQA dataset (#151)
+[33mb779549[m fix run.py
+[33m6a803eb[m fix build_judge
+[33m68b5f3f[m fix build_judge
+[33m7d17c69[m [Fix] TransCoreM-V1.2 Fix Bug (#152)
+[33m777eb1d[m [Improvement] Use judge_kwargs for initializing judges (#153)
+[33m5dc9bab[m remove model name assertion for GPT4V
+[33mf6e3e07[m add GPT4V 20240409
+[33m72b7dc7[m 'category' is no longer mandatory for multiple_choice
+[33me492f6e[m update MMVet
+[33me5ddf32[m remove transcore revision
+[33m0b8dfd7[m [VLM Update] TransCoreM-20240409 (#143)
+[33mcf26998[m fix README
+[33mfb0f176[m update
+[33m5149f2d[m [Model] Support for MiniCPM-V2 model (#147)
+[33m55d7d3f[m refine API, add GPT4V_HIGH
+[33mb5be9e3[m fix emu2 config
+[33m0a302f9[m bug fix
+[33m6833e65[m bug fix
+[33mf4e4be7[m bug fix
+[33mb0cdecf[m [Model] Add InternLM-xcomposer2 4khd (#144)
+[33mea0ff61[m [Refactor] Refactor the Generate Interface (#140)
+[33m0c56a47[m add dataset_type for MMStar
+[33m23c01db[m [Dataset] Support MMStar (#145)
+[33m803affb[m [Dataset] Add InfoVQA and DocVQA_TEST (#137)
+[33mcb472a1[m verbose args also apply to VLM APIs
+[33m06c0fb6[m update cache_dir of ChartQA
+[33ma4e63a4[m update
+[33m156e999[m update
+[33m85f1588[m update ls func
+[33m973c6d3[m reorder processes in run.py
+[33mf366671[m [Doc] Allow set local llm in the .env file; improve readme (#134)
+[33m44141d0[m update README
+[33mee8cb93[m [Feature] Allow to use local judge llm (#132)
+[33m86373b7[m switch to ChartQA Test
+[33m3d800fc[m [Fix ChartQA] Update ChartQA, modify vqa_eval.relaxed_correctness (#126)
+[33m6c00449[m [Feature] Support json output for MMMU offical evaluation (#130)
+[33m3f146c2[m [Prompt] Refine VQA Prompt (#129)
+[33m4799c12[m refine llava_next
+[33m0b6b0e5[m [Model] Support LLaVANEXT (#125)
+[33m8667aec[m [Fix] Fix typo in README.md for Quickstart.md (#123)
+[33mbbf8a3e[m [Model] Support DeepSeek-VL (#122)
+[33mf38fd35[m update report_missing.py
+[33m2674902[m remove mandatory md5 check for custom datasets
+[33m4b12db4[m update report_missing.py
+[33mca004b1[m Merge branches 'main' and 'main' of github.com:open-compass/VLMEvalKit
+[33m34f197e[m update README
+[33m81a3e6d[m [Improvement] Support load_dotenv (#120)
+[33mc6bdffd[m [Improvement] Add Pre-Commit Check (#119)
+[33mb35ab5b[m update config for api models
+[33mb2645db[m add claude3-vision (#118)
+[33m513f8d5[m [API] Add Step-1V API (#117)
+[33mb975e21[m move leaderboard code to a separate repo
+[33m44dd617[m [Fix] Vqa fix complete，fix vqa score calculation in vlmeval.evaluate.vqa_eval (#114)
+[33me7af632[m [Improvement] Update LLaVA version, hyper parameters and evaluation results (#115)
+[33m8269e99[m add a 'working' method for API
+[33m78af5e9[m update summarize.py
+[33m3a7d7ff[m remove preliminary VQA issues
+[33m5cdd890[m [Fix] Fix DocVQA bug and update md5 (#111)
+[33mf94600f[m update MMBenchOfficialServer check
+[33md802da7[m fix bug
+[33mde3d9a5[m optimizer multiple_choice eval
+[33me318686[m [Improvement] Incorporate codebase changes during early March (#106)
+[33m31f3b95[m update DocVQA_VAL md5
+[33m8840356[m [Refactor] Remove the `multi_generate` interface (#98)
+[33m28151c7[m Update README.md
+[33md186ee1[m Update README.md
+[33m04827d2[m Update README.md
+[33m92e3119[m [Doc] Update README (#96)
+[33me02f3ff[m [Dataset] Add OCRBench (#91)
+[33m084fa60[m Update README.md
+[33m04537e1[m Update README.md
+[33m6cc1580[m [Model] Add InternVL-Chat models (#93)
+[33m4bd2256[m update mmb_eval_gradio
+[33m996dc62[m [Minor] `dataset` flag can be none in multiple_choice evaluation
+[33ma551c02[m support the OPENAI_API_BASE env variable
+[33m56e0e31[m update
+[33m293aefb[m [Model] add  minicpm-v, omnilmm-12b (#89)
+[33m98e3733[m update
+[33m4f71ed8[m Update report_missing
+[33mad5f4ce[m [API] Fix Qwen API (#88)
+[33m83d7bb8[m [API] Support QwenAPI (#87)
+[33m7e06cb9[m update auto_run.py
+[33m5122309[m simplify llava & idefics model configuration
+[33m028b01b[m [Improvement] Minor Updates 0202 (#86)
+[33m2c81221[m [Dataset] Fix DocVQA (#85)
+[33mc63702b[m Visualize the InternLM-XComposer2-VL performance
+[33m0fc0529[m set the type of llavabench and mmvet as 'VQA`
+[33m0b51d63[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33ma4db4e5[m update README
+[33mb4834ec[m [Fix] Fix link (#82)
+[33m4932431[m fix work_dir bugs
+[33m4b191c2[m [Feature] Minor Updates (#81)
+[33m7d46d53[m update README
+[33meb6b146[m [Model] Add xcomposer2 (#79)
+[33mc6ee5fa[m [Model] Add MMAlaya  (#77)
+[33mddf5362[m [API] Support QwenVLMax (#80)
+[33m78030ae[m Remove TransCore_M
+[33mb2b2c5a[m [Metric] Update QA metrics calculation method (#72)
+[33m34bee89[m Update README.md
+[33mf417aed[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m1403592[m update download link
+[33m2c68ad2[m [Dataset] Fix AI2D Preprocessing (#76)
+[33m4136f4c[m tamporarily remove AI2D results
+[33m2309395[m minor update
+[33md2f62e7[m [Improvement] Update MMMU_TEST (#75)
+[33mef8e829[m [Improvement] Update visualization script, change backend to OpenVLM.json (#74)
+[33m1b63d96[m [Improvement] Monkey (Set different prompt and token lengths according to the category of the dataset) (#66)
+[33mff72e88[m [Fix] fix bug for Yi_VL (#70)
+[33mf8ce8e9[m Update README.md
+[33me9eeb1d[m [Update] Treat non-matching cases as wrong when calculating prefetch-acc (#68)
+[33m04d00ea[m [Model] add Yi-VL (#67)
+[33m5192363[m update README
+[33m205c260[m update README
+[33mf922d83[m update README
+[33m9ab85db[m update requirements.txt
+[33m1c907c2[m fix leaderboard
+[33m9c1c4b8[m refine requirements
+[33m0bc1a98[m fix gradio port
+[33mf3827d9[m [Visualization] Support Gradio Leaderboard (#64)
+[33m38885b5[m update json dump
+[33mc14428f[m [Minor] Monkey custom inference on LLaVABench (#63)
+[33m493a7e8[m[33m ([m[1;33mtag: v0.1[m[33m)[m [Result] Update Evaluation Results (#60)
+[33me9920466[m [Fix] Skip evaluation for MMBench_TEST on non-official servers
+[33m02860dd[m [Minor] Update file.py (#58)
+[33m7f099c1[m fix qwenvlplus
+[33m280e638[m update
+[33m19d766f[m update
+[33me9820c0[m update
+[33me5020b6[m fix report_missing.py
+[33ma312a85[m update report_missing.py
+[33md068bb0[m minor
+[33m0722210[m update
+[33m46cacb1[m [Minor] Update llava for logging
+[33m3d5ceb9[m refactor smp
+[33mebd33ac[m update
+[33mb9be12a[m update
+[33madf6e97[m update missing script for MMBench
+[33ma8e87ce[m fix model_name
+[33m7cd5f01[m add srun.sh
+[33m04dc9b3[m [Model] Support sharegpt4v-13b (#56)
+[33m7d3ea7e[m [Imrpovement] Support torchrun for emu2&emu2_chat and fix bug (#52)
+[33m8966cd4[m [Dataset] Support LLaVABench (#55)
+[33me36ea94[m [Model] Add `LLaVA-InternLM2` (#53)
+[33m0c4239c[m [Model] Add monkey-chat (#54)
+[33m7cd26fc[m update auto_run.py
+[33meae74cb[m change init device of XComposer
+[33m8382989[m [Benchmark] support AI2D (#51)
+[33me1a37ad[m update README
+[33mb361963[m [Dataset] Add DocVQA (#50)
+[33m86732dc[m [Model] Add Emu2 and Emu2_chat (#47)
+[33mb4a5e24[m update Visualize.ipynb
+[33m646ee5e[m [Improvement] Support non-contiguous choices (#49)
+[33m89c3e2c[m [Minor] A Better Implementation for Colored
+[33m43a4c92[m [Fix] Fix multiple choice evaluation when OPENAI_API_KEY missing (#48)
+[33mbea1f50[m Update README.md
+[33m66f1297[m Update README.md
+[33mfdbd841[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33mda077eb[m update monkey prompt
+[33md82c8a0[m Update README.md
+[33m11afdd4[m refine summarize table printing
+[33m79c05dc[m update
+[33m477da27[m update
+[33md6514db[m update
+[33m2f11105[m update monkey.py to save GPU mem
+[33m37aec91[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m5859326[m update ShareGPT4v MME performance
+[33m546eebf[m [Model] Support Monkey (#45)
+[33m032b1f3[m update
+[33m30574f4[m update visualize.ipynb
+[33mfcaf122[m Update README.md
+[33m236cd22[m update README
+[33m739915b[m Add Leaderboard Download Link
+[33ma8f2b84[m [Eval] Use exact matching for Y/N and multi-choice when OPENAI_API_KEY not set (#44)
+[33mbc4b28b[m [Eval] multiple_choice.py: E->Z (#41)
+[33me108d7c[m update results for CogVLM and SharedCaptioner
+[33m04b880a[m update README.md
+[33md1ce614[m fix
+[33m02e7359[m update
+[33me87fd1b[m remove MPT_PTH
+[33m5bbef87[m [Fix] Fix GPT error with parallel calling (#40)
+[33m9fb4b00[m Update README.md
+[33m274c57c[m Update README.md
+[33m8a325b5[m [Result] MathVista
+[33m4e90427[m [Result] Release HallusionBench
+[33mb15ab6f[m update README.md
+[33m51f1768[m [Result] Release ScienceQA Results
+[33m6b91dba[m fix bug
+[33mb939855[m update two new models for MMMU support
+[33m7b93109[m Merge branch 'Add_model_v0' of github.com:fitzpchao/VLMEvalKit; branch 'main' of github.com:open-compass/VLMEvalKit
+[33maf26c01[m [Model] Add SharedCaptioner and CogVLM (#37)
+[33m65ae02a[m update requirements
+[33m1761b7b[m update
+[33m7c39658[m update dependency
+[33m1e31658[m update
+[33m246314b[m update
+[33mb6dc72c[m Merge branch 'main' of github.com:open-compass/VLMEvalKit into cogvlm
+[33m7b7cff4[m fix
+[33m570bcda[m [Dataset] HallusionBench (#38)
+[33m0486f15[m add sharedcaptioner and cogvlm
+[33mff9fce5[m minor
+[33m3b3168f[m fix minor bug in smp.py
+[33me251d92[m update report missing
+[33m48415a1[m update report_missing
+[33m8cd2054[m [Dataset] MathVista dataset (#29)
+[33m80f8688[m [Feature]: Add ScienceQA (#24)
+[33mea8ddc6[m update VQA performance
+[33m381ab61[m support ignore failed
+[33m272065f[m Fix API Inference
+[33m9e323f6[m update vqa_eval
+[33m4a59b8b[m fix report missing
+[33m5b055a4[m [Minor] Smooth Evaluation
+[33m613201a[m [Dataset] add dataset ChartQA (#28)
+[33m5112ff0[m [Result] Update COCO Caption Results (#35)
+[33mf2d84b3[m [Result] Update XTuner Performance (#31)
+[33m5c63a2c[m [Feature] Support `LLaVA_XTuner` models (#17)
+[33m9f96756[m Update llava.py
+[33mb0b1c64[m [Result] Update MMMU Acc (#30)
+[33md7d7e3f[m update CCBench MD5
+[33m2324175[m fix
+[33mc8d2390[m Fix mPLUG-Owl2 & XComposer x MMMU
+[33m665dff7[m update GPT-4v & GeminiPro performance on MMMU
+[33m20d1b6c[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33ma925a82[m fix
+[33m8181875[m [Model] Add QwenVLPlus API (#27)
+[33ma059233[m update
+[33m8947404[m update
+[33m23bad73[m update API cont.
+[33m3a25201[m update
+[33m39cebe2[m [Benchmark] Add MMMU dataset (#18)
+[33m0fa38e3[m  Bug Fix (#26)
+[33mfeedbc4[m fix order of auto run
+[33m26f4081[m update
+[33mf6f37ce[m update README.md
+[33mdb7096f[m update README.md
+[33m32ccd70[m [Dataset] VQA Datasets (#25)
+[33md00d247[m [Result] Add API Performance
+[33m6bf23da[m [Refactor] Refactor Custom Prompt & Fix mPLUG-Owl2 acc (#23)
+[33m4deb085[m [Feature] More Robust API Evaluation (#22)
+[33m08c4215[m fix summarize
+[33m5ca8c8c[m [Fix] Fix 1221 (#21)
+[33m51ead0d[m update
+[33mdd7b749[m [Dataset] Add COCO dataset (#16)
+[33m0959739[m Fix arg
+[33m8b6a4c7[m [Fix] Support Dict Args in MP
+[33m0a26982[m [Fix]
+[33m3e2a6d3[m [Feature] Support API model in inference.py
+[33m74a4663[m [Feature] Support two Vision APIs (#19)
+[33mb94074b[m [Dataset] Add dataset md5 check integrity (#15)
+[33m25d8953[m fix
+[33me41f7c1[m update
+[33m860a31d[m [Fix] Fix README (#14)
+[33mdb5276d[m Update README.md
+[33mb1558a5[m [Doc] Refine README (#13)
+[33m7057afc[m [Feature] Add run.py and simplify the evaluation.  (#12)
+[33m0380a54[m Update data_util.py
+[33m91897cb[m Merge branch 'main' of github.com:open-compass/VLMEvalKit
+[33m32d2c9a[m update
+[33m20eb37a[m [Metric] Updating mmvet_eval (#11)
+[33m3dba739[m update
+[33m86a0ce2[m [Doc] README Update 12.11
+[33mcc8fb36[m update MMVet results
+[33m00512a3[m update
+[33m5510edb[m update
+[33m7de60c4[m update
+[33m9304eca[m [Dataset] Adding MMVet (#7)
+[33m8aeae80[m fix bug
+[33mb551a4c[m Update README.md
+[33maf08404[m [Dataset] COREMM Evaluation Benchmark (#6)
+[33m608fef7[m [Score] update TransCore Results (#9)
+[33mbe168e8[m [Model] TranCore-M (#8)
+[33mcba4a16[m update
+[33ma80382f[m update
+[33m6405fbd[m fix bug
+[33m4b47359[m update
+[33m36fd1e6[m update
+[33m59194d2[m [Tool] Minor updates 1205 (#3)
+[33m19dddb8[m update
+[33m871cf9c[m update gpt_int
+[33m5b3b7c5[m [Feature] Support multi_generate (#1)
+[33me320dd5[m Update README.md
+[33m9566b72[m update
+[33m9d3eaf2[m fix bug
+[33m9093573[m update
+[33mdcbd01e[m update
+[33md47579a[m update
+[33m71a6afe[m update README
+[33mf75d1d8[m update
+[33mc7907f8[m update
+[33md59bdfa[m update README
+[33m6dc4bdd[m update
+[33m3d7fa53[m update
+[33mc7758c5[m update README
+[33m6f633c5[m update
+[33m8d2268d[m update
+[33meaccfcc[m update
+[33md62aa87[m Renaming
+[33m9e620a6[m update README
+[33m9fbcc13[m rename package
+[33mcf59e64[m update README
+[33m3038073[m update
+[33m1407440[m rename package
+[33m3e4c45d[m update
+[33m0fad21f[m relative import
+[33m1857dc7[m Rename
+[33mca66475[m update
+[33mb4a1f5f[m update
+[33m09b9373[m update
+[33meec3289[m update
+[33mc340182[m update
+[33m51830ef[m update
+[33m5a0ec68[m update
+[33macd39a0[m Merge branch 'public' of ssh://gitlab.pjlab.org.cn:1122/duanhaodong/VLMEvalKit
+[33m5630d27[m update
+[33mb96f19e[m update
+[33m5e9d28c[m update
+[33m6ee06bc[m update
+[33mb898411[m update
+[33mc519e28[m fix
+[33m27d6165[m update
+[33mfdeb707[m update
+[33m8380621[m update
+[33mbce64f1[m update
+[33m0b57f19[m update public branch
+[33mccce688[m update
+[33m807bbc2[m update
+[33m3338aa7[m update
+[33mfef21d4[m update
+[33m607c460[m update
+[33mf682aff[m update
+[33m3acd9cd[m update
+[33mce8c0c1[m update
+[33ma3a26b2[m update
+[33m5b040fd[m update
+[33me68e7a2[m update
+[33m1c73990[m update
+[33m5a24a45[m update
+[33m349edf5[m update
+[33m15c8dcb[m update
+[33m4118c9b[m update
+[33m1f1d2e9[m update
+[33m3289f72[m fix bug
+[33m3154af2[m update
+[33mcc46067[m update
+[33md6e8bbe[m update
+[33m609171f[m update
+[33mc94451d[m update miniGPT-4
+[33m6b78d91[m update
+[33m70caa13[m fix bug
+[33m453c5d7[m udpate
+[33ma3c1d85[m update
+[33m74ec170[m update setup
+[33m3a77525[m update
+[33m6967746[m update
+[33ma246a41[m update
+[33mb2a8045[m update
+[33m30505e7[m update
+[33m5dc09fd[m update
+[33mac32fb7[m update
+[33m3057cc0[m update
+[33m0d6565a[m update
+[33m980703d[m update
+[33mf3231f0[m update
+[33m8d82e49[m Others Finished
+[33m40ed72b[m mPLUG-Owl Done
+[33m8254614[m InstructBLIP done
+[33m77c2cc8[m IDEFICS, LLAVA DONE
+[33m1b189af[m update
+[33m1711b01[m update
+[33me3e9174[m update
+[33mf96200b[m update
+[33md53fb89[m update link
+[33m12b29b7[m update
+[33m6b70deb[m update
+[33mb67639b[m update smp
+[33m2cb57af[m support gpt_int
+[33m25cf0a8[m update
+[33m9ac258c[m first commit
