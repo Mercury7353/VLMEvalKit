@@ -412,13 +412,13 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
             try:
                 from qwen_omni_utils import process_mm_info
             except Exception as err:
-                logging.critical("qwen_omni_utils not found, please install it via 'pip install qwen-omni-utils[decord]'")  # noqa: E501
+                logging.critical("qwen_omni_utils not found, please install it via 'pip install qwen-omni-utils[decord]'")    # noqa: E501
                 raise err
         else:
             try:
                 from qwen_vl_utils import process_vision_info
             except Exception as err:
-                logging.critical("qwen_vl_utils not found, please install it via 'pip install qwen-vl-utils'")  # noqa: E501
+                logging.critical("qwen_vl_utils not found, please install it via 'pip install qwen-vl-utils'")    # noqa: E501
                 raise err
 
         messages = []
@@ -435,7 +435,6 @@ class Qwen2VLChat(Qwen2VLPromptMixin, BaseModel):
             images, videos = process_vision_info([messages])
         inputs = self.processor(text=text, images=images, videos=videos, padding=True, return_tensors='pt')
         inputs = inputs.to('cuda')
-
         if listinstr(['omni'], self.model_path.lower()):
             self.generate_kwargs['use_audio_in_video'] = False
             self.generate_kwargs['return_audio'] = False
